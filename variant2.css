@@ -1,0 +1,199 @@
+.header {
+    display: grid;
+
+    height: 10%;
+    grid-template-columns: repeat(27, 1fr);
+    grid-template-rows: 1fr;
+    text-align: center;
+    font-family: 'DM sans';
+    font-weight: 400;
+    font-size: 4em;
+    background: transparent;
+}
+
+
+.about {
+    grid-row: 1/2;
+    grid-column: 2/4;
+
+}
+
+.about:hover {
+    text-decoration: underline;
+}
+
+.service {
+    grid-row: 1/2;
+    grid-column: 4/6;
+}
+
+
+.service:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    grid-row: 1/2;
+    grid-column: 6/8;
+
+}
+
+.menu:hover {
+    text-decoration: underline;
+}
+
+
+.contact {
+    grid-row: 1/2;
+    grid-column: 8/10;
+
+}
+
+.contact:hover {
+    text-decoration: underline;
+}
+
+
+.planet {
+    grid-row: 1/2;
+    grid-column: 17/18;
+    width: 70%;
+    margin-top: 30px;
+
+
+
+}
+
+.search {
+    grid-row: 1/2;
+    grid-column: 20/21;
+    width: 70%;
+    margin-top: 30px;
+
+}
+
+.basket {
+    grid-row: 1/2;
+    grid-column: 21/22;
+    width: 70%;
+    margin-top: 30px;
+
+
+}
+
+.button {
+    grid-row: 1/2;
+    grid-column: 23/28;
+    margin-top: 30px;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 26px;
+    background-color: #09A66D;
+    border-color: #09A66D;
+    text-align: center;
+    font-family: 'DM sans';
+    font-weight: 400;
+    font-size: 1em;
+    color: white;
+    align-content: center;
+    align-items: center;
+
+}
+
+.container1 {
+    display: grid;
+    height: 90vh;
+    grid-template-columns: repeat(27, 1fr);
+    grid-template-rows: repeat(21, 1fr);
+    background: #F3FBF8;
+
+}
+
+.organic
+
+/*main text*/
+    {
+    grid-row: 1/3;
+    grid-column: 8/22;
+    font-family: Rosario, serif;
+    font-weight: 700;
+    font-size: 14em;
+    font-style: bold;
+    /*justify-content: center;
+    justify-items: center;*/
+}
+
+
+.lorem {
+
+    grid-row: 3/4;
+    grid-column: 10/18;
+
+    font-family: 'DM sans';
+    font-size: 3.3em;
+
+    text-align: center;
+    justify-content: center;
+}
+
+.order {
+    width: 13vw;
+    grid-row: 4/5;
+    grid-column: 13/15;
+
+
+}
+
+.leaves
+
+/*image*/
+    {
+    width: 180%;
+    grid-row: 1/6;
+    grid-column: 1/6;
+    object-fit: contain;
+
+}
+
+
+
+.fruits
+
+/*main image*/
+    {
+    width: 53vw;
+    position: absolute;
+    top: 40%;
+    left: 8%;
+
+    mix-blend-mode: darken;
+
+}
+
+.sidebar {
+    grid-row: 8/16;
+    grid-column: 22/26;
+    align-content: space-between;
+
+}
+
+.userorder {
+    grid-row: 8/10;
+    grid-column: 23/26;
+    width: 95%;
+    margin: 5px;
+}
+
+.reviews {
+    grid-row: 11/13;
+    grid-column: 23/26;
+    width: 95%;
+    margin: 5px;
+}
+
+.items {
+    grid-row: 14/16;
+    grid-column: 23/26;
+    width: 95%;
+    margin: 5px;
+}
